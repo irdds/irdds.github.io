@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://irdds.github.io.git/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="irdds">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://irdds.github.io.git"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-About-Markdown" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/31/About-Markdown/" class="article-date">
+  <time class="dt-published" datetime="2023-10-31T14:17:33.000Z" itemprop="datePublished">2023-10-31</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2023/10/31/About-Markdown/">About Markdown</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="Markdown基本语法"><a href="#Markdown基本语法" class="headerlink" title="Markdown基本语法"></a>Markdown基本语法</h2><p>相较于word，markdown语法输出的文档更加直观简洁，且不依赖于鼠标，更加依托键盘输入，能够让使用者不用左右分工，仅仅依托于键盘对内容进行编辑。</p>
+<hr>
+<p>在这里仅对markdown的几种常用基本语法进行记录和介绍。</p>
+<h3 id="一-标题"><a href="#一-标题" class="headerlink" title="一 标题"></a>一 标题</h3><p>标题共有六级，根据字体大小依次递进。</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">代码为</span><br><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">以此类推</span><br></pre></td></tr></table></figure>
+
+<h2 id="二-表格"><a href="#二-表格" class="headerlink" title="二 表格"></a>二 表格</h2><p>还在为数据凌乱而烦恼吗？还在为word表格需要自己绘制而头痛吗？在markdown，只需要简单几步，表格<del>就如约而至</del>(不是)。</p>
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+</table>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">表头     | 表头</span><br><span class="line">-------- | -----</span><br><span class="line">代码如上</span><br></pre></td></tr></table></figure>
+
+<p>如果你需要将表中数据对齐，也仅仅只需动动手指。</p>
+<table>
+<thead>
+<tr>
+<th align="left">第一列</th>
+<th align="center">第二列</th>
+<th align="right">第三列</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">居左</td>
+<td align="center">居中</td>
+<td align="right">居右</td>
+</tr>
+</tbody></table>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">| 第一列       | 第二列         | 第三列        |</span><br><span class="line">|:-----------| :-------------:|-------------:|</span><br><span class="line">| 居左 | 居中  | 居右|</span><br><span class="line">代码如上</span><br></pre></td></tr></table></figure>
+
+<h2 id="三-字体"><a href="#三-字体" class="headerlink" title="三 字体"></a>三 字体</h2><p>如果你想更加具有特色，又或者想让文本更加生动，那么这几个语法或许能帮到你。😎</p>
+<p><em>斜体</em></p>
+<p><strong>加粗</strong></p>
+<p><em><strong>加粗的斜体</strong></em></p>
+<p><u>下划线</u></p>
+<p><del>删除</del></p>
+<p>注脚<a href="%E4%BB%80%E4%B9%88%E4%B9%9F%E6%B2%A1%E6%9C%89">^1</a></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">代码如下</span><br><span class="line">*斜体*</span><br><span class="line"></span><br><span class="line">**加粗**</span><br><span class="line"></span><br><span class="line">***加粗的斜体***</span><br><span class="line"></span><br><span class="line">&lt;u&gt;下划线&lt;/u&gt;</span><br><span class="line"></span><br><span class="line">~~删除~~</span><br><span class="line"></span><br><span class="line">注脚[^<span class="number">1</span>]</span><br><span class="line"></span><br><span class="line">[^<span class="number">1</span>]: 什么也没有    </span><br></pre></td></tr></table></figure>
+
+<h3 id="四-代码块"><a href="#四-代码块" class="headerlink" title="四 代码块"></a>四 代码块</h3><p>还在为输出的代码因为聊天框而一团乱而烦恼吗？代码块帮你解决！</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">只需要```+语言名称，就能得到代码格式</span><br><span class="line">以以下代码为例</span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> a;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">&quot;%d&quot;</span>,&amp;a);</span><br><span class="line">	<span class="keyword">if</span>(a&gt;=<span class="number">90</span>&amp;&amp;a&lt;=<span class="number">100</span>)</span><br><span class="line">		 <span class="built_in">printf</span>(<span class="string">&quot;A\n&quot;</span>);</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span>(a&gt;=<span class="number">80</span>&amp;&amp;a&lt;=<span class="number">89</span>)</span><br><span class="line">		 <span class="built_in">printf</span>(<span class="string">&quot;B\n&quot;</span>);</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span>(a&gt;=<span class="number">70</span>&amp;&amp;a&lt;=<span class="number">79</span>)</span><br><span class="line">		 <span class="built_in">printf</span>(<span class="string">&quot;C\n&quot;</span>);</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span>(a&gt;=<span class="number">60</span>&amp;&amp;a&lt;=<span class="number">69</span>)</span><br><span class="line">		 <span class="built_in">printf</span>(<span class="string">&quot;D\n&quot;</span>);</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span>(a&gt;=<span class="number">0</span>&amp;&amp;a&lt;=<span class="number">59</span>)</span><br><span class="line">		 <span class="built_in">printf</span>(<span class="string">&quot;E\n&quot;</span>);</span><br><span class="line">	</span><br><span class="line">	  getchar();</span><br><span class="line">	    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="五-图片"><a href="#五-图片" class="headerlink" title="五 图片"></a>五 图片</h3><p><img src="D:\blog\irdds\source_posts\QQ图片20231031214011.png"></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">![](D:\blog\irdds\source\_posts\QQ图片<span class="number">20231031214011.</span>png)</span><br><span class="line">代码如上</span><br></pre></td></tr></table></figure>
+
+<h3 id="六-链接"><a href="#六-链接" class="headerlink" title="六 链接"></a>六 链接</h3><p><a target="_blank" rel="noopener" href="https://ak.hypergryph.com/">文本</a></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">代码如下</span><br><span class="line">[文本] (链接)</span><br></pre></td></tr></table></figure>
+
+<h3 id="七-其他"><a href="#七-其他" class="headerlink" title="七 其他"></a>七 其他</h3><blockquote>
+<p>引用</p>
+</blockquote>
+<p>用&gt;表示</p>
+<p>横线</p>
+<hr>
+<p>三个—</p>
+<hr>
+<p><em><strong>End</strong></em></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://irdds.github.io.git/2023/10/31/About-Markdown/" data-id="clof9x0r9000078e4c6n24okb" data-title="About Markdown" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/31/hello-world/" class="article-date">
+  <time class="dt-published" datetime="2023-10-31T11:21:45.408Z" itemprop="datePublished">2023-10-31</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2023/10/31/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://irdds.github.io.git/2023/10/31/hello-world/" data-id="clof9x0rc000178e4cpa16t5v" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/10/">October 2023</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/10/31/About-Markdown/">About Markdown</a>
+          </li>
+        
+          <li>
+            <a href="/2023/10/31/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 irdds<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
